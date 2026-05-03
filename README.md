@@ -1,11 +1,7 @@
 # Parkir-In
 
 <p align="center">
-  <img src="https://via.placeholder.com/1200x400?text=Parkir-In+App" alt="Parkir-In Banner" width="100%">
-</p>
-
-<p align="center">
-  <b>Save your parking spot. Find it faster.</b>
+  <b>Simpan lokasi parkir. Temukan kendaraan lebih cepat.</b>
 </p>
 
 <p align="center">
@@ -13,168 +9,244 @@
   <img src="https://img.shields.io/badge/Dart-Language-blue?style=for-the-badge&logo=dart">
   <img src="https://img.shields.io/badge/Google_Maps-API-green?style=for-the-badge&logo=googlemaps">
   <img src="https://img.shields.io/badge/Geolocation-Tracking-red?style=for-the-badge&logo=googlemaps">
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Selesai-success?style=for-the-badge">
 </p>
 
 ---
 
-## Tentang Parkir-In
+## 📌 Tentang Parkir-In
 
-**Parkir-In** adalah aplikasi mobile berbasis Flutter yang membantu pengguna menyimpan lokasi parkir kendaraan dan menemukannya kembali dengan mudah.
+**Parkir-In** adalah aplikasi mobile berbasis Flutter yang dirancang untuk membantu pengguna menyimpan lokasi parkir kendaraan dan menemukannya kembali dengan mudah.
 
-Aplikasi ini dibuat berdasarkan masalah nyata yang sering terjadi: pengguna lupa lokasi parkir karena area terlalu luas, kendaraan terlalu banyak, atau tidak ada penanda khusus.
+Aplikasi ini dibuat untuk menyelesaikan masalah yang sering dialami banyak orang, yaitu lupa lokasi parkir kendaraan, terutama di area parkir yang luas, padat, atau ramai.
 
-Dengan memanfaatkan GPS dan peta digital, Parkir-In membuat proses menyimpan dan mencari kendaraan jadi lebih cepat, praktis, dan efisien.
+Dengan memanfaatkan GPS dan peta digital, Parkir-In membantu pengguna melacak lokasi parkir dengan lebih cepat, praktis, dan efisien.
 
 ---
 
-## - Problem Solving
+## 🎯 Permasalahan yang Diselesaikan
 
 Masalah yang sering terjadi:
 
-- Lupa parkir kendaraan  
-- Area parkir terlalu luas  
-- Banyak kendaraan serupa  
-- Sulit mengingat posisi terakhir  
+* Lupa lokasi parkir kendaraan
+* Area parkir terlalu luas
+* Banyak kendaraan yang mirip
+* Sulit mengingat posisi parkir terakhir
 
 Solusi dari Parkir-In:
 
-- Simpan lokasi parkir instan  
-- Navigasi kembali ke kendaraan  
-- Marker lokasi parkir di map  
-- Detail lokasi tersimpan  
+* Menyimpan lokasi parkir secara instan
+* Navigasi kembali ke kendaraan
+* Penanda lokasi parkir di peta
+* Penyimpanan detail parkir
 
 ---
 
-## - Fitur Utama
+## ✨ Fitur Utama
 
-## Save Parking Spot
+### 📍 Simpan Lokasi Parkir
+
 Menyimpan lokasi parkir secara real-time menggunakan GPS.
 
-**Fitur:**
-- Ambil koordinat otomatis
-- Simpan titik lokasi
-- Marker otomatis pada map
+Fitur:
+
+* Deteksi koordinat otomatis
+* Menyimpan titik parkir
+* Menampilkan marker pada peta
 
 ---
 
-## - Interactive Map
+### 🗺️ Peta Interaktif
+
 Menampilkan lokasi parkir secara visual pada peta.
 
-**Fitur:**
-- Marker lokasi parkir
-- Posisi user saat ini
-- Tampilan area sekitar
+Fitur:
+
+* Marker lokasi parkir
+* Lokasi pengguna saat ini
+* Tampilan area sekitar
 
 ---
 
-## - Navigate Back
-Navigasi menuju lokasi kendaraan.
+### 🧭 Navigasi Kembali
 
-**Fitur:**
-- Menampilkan rute
-- Menunjukkan arah kembali
-- Tracking posisi user
+Membantu pengguna kembali ke lokasi kendaraan.
 
----
+Fitur:
 
-## - Parking Details
-Menyimpan informasi tambahan mengenai lokasi parkir.
-
-**Data yang disimpan:**
-- Nama lokasi
-- Koordinat
-- Timestamp parkir
-- Catatan tambahan
+* Menampilkan rute perjalanan
+* Panduan arah menuju kendaraan
+* Tracking lokasi pengguna
 
 ---
 
-## - Cara Kerja Aplikasi
+### 📝 Detail Parkir
+
+Menyimpan informasi tambahan terkait lokasi parkir.
+
+Data yang disimpan:
+
+* Nama lokasi
+* Koordinat
+* Waktu parkir
+* Catatan tambahan
+
+---
+
+### 📷 Ambil Foto Lokasi
+
+Mengambil foto area parkir untuk memudahkan identifikasi.
+
+Fitur:
+
+* Foto lokasi parkir
+* Membantu mengingat kondisi sekitar
+
+---
+
+### 🔔 Notifikasi
+
+Memberikan pengingat terkait aktivitas parkir.
+
+Fitur:
+
+* Notifikasi status parkir
+* Pengingat parkir
+
+---
+
+## ⚙️ Cara Kerja Aplikasi
 
 ```mermaid
 flowchart TD
 A[Parkir Kendaraan] --> B[Simpan Lokasi]
-B --> C[GPS Ambil Titik]
+B --> C[GPS Mengambil Koordinat]
 C --> D[Lokasi Disimpan]
-D --> E[User Pergi]
-E --> F[Buka Aplikasi Lagi]
+D --> E[Pengguna Meninggalkan Area]
+E --> F[Buka Aplikasi Kembali]
 F --> G[Lihat Lokasi Parkir]
-G --> H[Navigasi Kembali]
+G --> H[Navigasi ke Kendaraan]
 ```
 
 ---
 
-## - Tech Stack
+## 🛠️ Teknologi yang Digunakan
 
-| Bagian | Teknologi |
-|---|---|
-| Frontend | Flutter |
-| Language | Dart |
-| Maps | Google Maps API |
-| Location | Geolocator |
-| Storage | SharedPreferences |
-| State Management | Provider |
+| Komponen           | Teknologi         |
+| ------------------ | ----------------- |
+| Frontend           | Flutter           |
+| Bahasa Pemrograman | Dart              |
+| Integrasi Peta     | Google Maps API   |
+| Layanan Lokasi     | Geolocator        |
+| Penyimpanan Lokal  | SharedPreferences |
+| State Management   | Provider          |
 
 ---
 
-## - Preview Aplikasi
+## 📱 Tampilan Aplikasi
 
-## Home Screen
+### Home Screen
 
 <p align="center">
-  <img src="https://via.placeholder.com/300x600?text=Home+Screen" width="250">
+  <img src="ss/home.jpg" width="250">
 </p>
 
 ---
 
-## Map Screen
+### Profile Screen
 
 <p align="center">
-  <img src="https://via.placeholder.com/300x600?text=Map+Screen" width="250">
+  <img src="ss/profil.jpg" width="250">
 </p>
 
 ---
 
-## Detail Screen
+### Notification Screen
 
 <p align="center">
-  <img src="https://via.placeholder.com/300x600?text=Detail+Screen" width="250">
+  <img src="ss/notif.jpg" width="250">
 </p>
 
 ---
 
-## - Tujuan Aplikasi
+### Take Photo Screen
 
-- Membantu pengguna menemukan kendaraan lebih cepat
-- Mengurangi waktu pencarian kendaraan
-- Menyimpan lokasi parkir dengan akurat
-- Memberikan navigasi kembali ke lokasi parkir
-
----
-
-## - Future Development
-
-- Parking history
-- Favorite parking spots
-- Parking reminder
-- Upload foto lokasi parkir
-- Multi-vehicle support
+<p align="center">
+  <img src="ss/foto.jpg" width="250">
+</p>
 
 ---
 
-## Developer
+### Parking Saved Screen
 
-**Danur Wenda Prasetiyo**  
-Teknik Informatika
-
----
-
-## Support
-
-Jika project ini membantu, jangan lupa kasih **star** ⭐
+<p align="center">
+  <img src="ss/selesaiparkir.jpg" width="250">
+</p>
 
 ---
 
-## License
+### Navigation Screen
 
-noers@2026
+<p align="center">
+  <img src="ss/navigasi.jpg" width="250">
+</p>
+
+---
+
+## 📦 Download Aplikasi
+
+<p align="center">
+  <a href="https://drive.google.com/uc?export=download&id=1Ur-4yKuhzMsp_nAcHjap6LQdgH91HT4S">
+    <img src="https://img.shields.io/badge/Google_Drive-Download_APK-blue?style=for-the-badge&logo=googledrive">
+  </a>
+</p>
+
+---
+
+## 🎯 Tujuan Aplikasi
+
+* Membantu pengguna menemukan kendaraan lebih cepat
+* Mengurangi waktu pencarian kendaraan
+* Menyimpan lokasi parkir dengan akurat
+* Memberikan navigasi kembali ke lokasi parkir
+
+---
+
+## 🚀 Pengembangan Selanjutnya
+
+* Riwayat parkir
+* Lokasi parkir favorit
+* Pengingat parkir otomatis
+* Dukungan banyak kendaraan
+* Backup data ke cloud
+
+---
+
+## 👨‍💻 Developer
+
+**Danur Wenda Prasetiyo**
+Mahasiswa Teknik Informatika
+
+---
+
+## ⭐ Dukungan
+
+Jika project ini bermanfaat, jangan lupa kasih **star** ⭐
+
+---
+
+## 🌐 Hubungi Saya
+
+<p align="center">
+  <a href="https://github.com/dnrprsty">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
+  </a>
+
+  <a href="https://www.linkedin.com/in/danur-wenda-prasetiyo-370687275/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
+  </a>
+
+  <a href="mailto:danurwp70@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail">
+  </a>
+</p>
