@@ -193,7 +193,7 @@ G --> H[Navigasi ke Kendaraan]
 
 ---
 
-## 📦 Download Aplikasi
+## Download Aplikasi
 
 <p align="center">
   <a href="https://drive.google.com/uc?export=download&id=1Ur-4yKuhzMsp_nAcHjap6LQdgH91HT4S">
@@ -203,7 +203,16 @@ G --> H[Navigasi ke Kendaraan]
 
 ---
 
-## 🎯 Tujuan Aplikasi
+## Live Testing
+<p align="center">
+  <a href="https://parkir-in-165838549527.asia-southeast2.run.app/">
+    <img src="https://img.shields.io/badge/Flutter-Live_Preview-blue?style=for-the-badge&logo=flutter">
+  </a>
+</p>
+
+---
+
+## Tujuan Aplikasi
 
 * Membantu pengguna menemukan kendaraan lebih cepat
 * Mengurangi waktu pencarian kendaraan
@@ -212,7 +221,7 @@ G --> H[Navigasi ke Kendaraan]
 
 ---
 
-## 🚀 Pengembangan Selanjutnya
+## Pengembangan Selanjutnya
 
 * Riwayat parkir
 * Lokasi parkir favorit
@@ -222,7 +231,7 @@ G --> H[Navigasi ke Kendaraan]
 
 ---
 
-## 👨‍💻 Developer
+## Developer
 
 **Danur Wenda Prasetiyo**
 Mahasiswa Teknik Informatika
